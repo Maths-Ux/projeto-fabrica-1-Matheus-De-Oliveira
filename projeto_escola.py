@@ -1,6 +1,6 @@
 import streamlit as st
 import Calcula_media as Cm
-from streamlit_image_coordinates import streamlit_image_coordinates
+
 
 imagem1 = st.image("C:\\Users\\Aluno_Programador3\\Desktop\\I_LOVE_PASTAS\\projeto_1\\OIP.webp")
 
@@ -13,4 +13,5 @@ nota_slider1 = st.slider(min_value=0.0, max_value=10.0,label="Qual a nota do alu
 nota_slider2 = st.slider(min_value=0.0, max_value=10.0,label="Qual a nota do aluno em Portgues",step=0.25)
 nota_slider3 = st.slider(min_value=0.0, max_value=10.0,label="Qual a nota do aluno em Idiomas",step=0.25)
 nota_slider4 = st.slider(min_value=0.0, max_value=10.0,label="Qual a nota do aluno em Fisica",step=0.25)
+
 
