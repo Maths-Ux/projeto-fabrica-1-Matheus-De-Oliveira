@@ -15,3 +15,7 @@ nota_slider3 = st.slider(min_value=0.0, max_value=10.0,label="Qual a nota do alu
 nota_slider4 = st.slider(min_value=0.0, max_value=10.0,label="Qual a nota do aluno em Fisica",step=0.25)
 
 
+if st.button:
+    media = Cm.calcula_media(nota_slider1, nota_slider2,nota_slider3,nota_slider4)
+    situcao = Cm.situacao_media(media)
+    st.write(f"Aluno ficou com {media} a situação dele é {situcao}")
